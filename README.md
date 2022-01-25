@@ -1,1 +1,0 @@
-# esp32-wallpaper-led-alexa
