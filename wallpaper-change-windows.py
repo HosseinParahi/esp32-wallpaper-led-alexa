@@ -1,8 +1,3 @@
 import ctypes
-
-class Main:
-    def __init__(self):
-        path = 'c:/...'
-        ctypes.windll.user32.SystemParametersInfoW(20, 0, path , 0)
-
-application = Main()
+WALLPAPER_PATH = "G:\\Library\\Documents\\VScode\\esp32-wallpaper-led-alexa\\2.jpg"
+ctypes.windll.user32.SystemParametersInfoW(20, 0, WALLPAPER_PATH, 3)
